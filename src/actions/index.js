@@ -21,3 +21,9 @@ export const petFavoriteDecrement = () => {
     type: "PET_FAVORITE_DECREASED",
   };
 };
+
+export const getUsers = () => {
+  return {
+    type: "GET_USERS_REQUESTED",
+  };
+};
